@@ -89,7 +89,7 @@
               <div class="columns">
                 <div class="column">
                   <div class="columns">
-                    <table class="table">
+                    <table class="table table-left">
                         <thead class="table-header">
                           <tr>
                             <th></th>
@@ -118,29 +118,29 @@
                   </div>
 
                   <div class="columns">
-                    <table class="table">
+                    <table class="table table-left table-left-under">
                         <thead class="table-header">
                           <tr>
                             <th></th>
-                            <th style="text-align:center; color: #ffffff;">History</th>
+                            <th style="text-align:center; color: #ffffff;">Calendar</th>
                             <th></th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td id="year">2016</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">7th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                           <tr>
-                            <td id="year">2017</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">9th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                           <tr>
-                            <td id="year">2018</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">13th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         </tbody>
                     </table>
@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="column">
-                  <table class="table">
+                  <table class="table table-right">
                         <thead class="table-header">
                           <tr>
                             <th></th>
@@ -158,19 +158,19 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <td id="year">2016</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">7th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                           <tr>
-                            <td id="year">2017</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">9th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                           <tr>
-                            <td id="year">2018</td>
-                            <td id="tournament-name">The International</td>
-                            <td id="rank">13th</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         </tbody>
                     </table>
@@ -178,7 +178,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -261,6 +260,28 @@ export default {
     /* =============== TABLE ==================== */
     table{
       border-collapse: collapse;
+      
+    }
+
+    .table-left{
+      width: 100%;
+      margin-bottom: 30px;
+      height: 260px;
+    }
+
+    .table-left-under{
+      background-color: #0c0c0c; 
+      height: 260px;
+      opacity: 0.7
+    }
+
+    .table-right{
+      width: 80%;
+      margin-left: 30px;
+      height: 550px;
+      background-color: #0c0c0c; 
+      opacity: 0.7;
+      margin-top: -10px;
     }
 
     th{
@@ -285,6 +306,7 @@ export default {
       font-size: 12px;
       letter-spacing: 3px;
     }
+    
 
     #year{
       color: #ffffff;

@@ -38,10 +38,6 @@
           <a class="navbar-item">
             Contact
           </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
         </div>
       </div>
 
@@ -63,10 +59,6 @@
           </a>
           <a class="navbar-item">
             Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
           </a>
         </div>
       </div>
@@ -121,6 +113,10 @@ export default {
 /* ============ NAVBAR ================== */
   .navbar{
     background-color: #1b1b1b;
+  }
+
+  .navbar-dropdown .navbar-item{
+    color: #333333;
   }
 
   a.navbar-item, a.navbar-link{
