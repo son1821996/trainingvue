@@ -1,0 +1,13 @@
+#header {
+  background-image: url(../../assets/img/group-4-copy-2.png);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#team {
+  background-image: linear-gradient(to right, rgba(187, 46, 3, 0.411), rgba(44, 19, 4, 0.801), rgba(187, 46, 3, 0.411)), url(../../assets/img/group@3x.png);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
